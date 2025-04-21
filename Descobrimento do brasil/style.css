@@ -1,3 +1,8 @@
+html, body { /* Garante que o body ocupe toda a altura da página*/
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 body {
     background-image: url('image.png');
     background-size: cover;
@@ -5,8 +10,8 @@ body {
     background-position: center;
     font-family: 'IM Fell English SC', serif;
     color: #3e2f1c;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-direction: column; 
   }
   header {
     text-align: center;
@@ -40,6 +45,7 @@ body {
   nav {
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   nav a {
@@ -91,7 +97,6 @@ body {
     text-align: center;
     font-size: 16px;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: auto; /* Empurra o rodapé para o final */
     border-top: 1px solid #ccc;
-
   }
