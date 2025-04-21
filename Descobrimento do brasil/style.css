@@ -58,7 +58,34 @@ body {
     background-color: #d1b790;
     color: white;
   }
+  .schedule { /*ALINHAMENTO DO MAPA E TEXTO*/
+    padding: 20px;
+    margin-bottom: 20px;
+}
 
+.schedule-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px 0;
+}
+
+.schedule-item:last-child {
+    border-bottom: none;
+}
+
+.schedule-item img {
+    width: 350px;
+    height: auto;
+    margin-right: 20px;
+}
+.schedule-item-text {
+    display: flex;
+    flex-direction: column;
+}
+.schedule-item p {
+    margin-right: 20px;
+    margin-left: 20px;
+}
   footer {
     background-color: rgba(255, 248, 220, 0.7);
     text-align: center;
